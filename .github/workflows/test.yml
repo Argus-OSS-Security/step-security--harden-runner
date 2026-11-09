@@ -1,12 +1,13 @@
 name: Test
-on:
-  pull_request:
-    branches:
-      - main
-  push:
-    branches:
-      - main # to update code coverage
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     branches:
+#       - main
+#   push:
+#     branches:
+#       - main # to update code coverage
+# 
 permissions: # added using https://github.com/step-security/secure-workflows
   contents: read
 concurrency:

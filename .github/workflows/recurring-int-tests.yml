@@ -1,9 +1,10 @@
 name: Recurring INT tests
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 */2 * * *' # every other hour
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: '0 */2 * * *' # every other hour
+# 
 permissions:
   contents: read
 

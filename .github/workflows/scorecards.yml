@@ -1,14 +1,15 @@
 name: Scorecards supply-chain security
-on:
-  # Only the default branch is supported.
-  branch_protection_rule:
-  schedule:
-    # Weekly on Saturdays.
-    - cron: "30 1 * * 6"
-  push:
-    branches: [main, master]
-
-# Declare default permissions as read only.
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   # Only the default branch is supported.
+#   branch_protection_rule:
+#   schedule:
+#     # Weekly on Saturdays.
+#     - cron: "30 1 * * 6"
+#   push:
+#     branches: [main, master]
+# 
+# # Declare default permissions as read only.
 permissions: read-all
 
 jobs:
